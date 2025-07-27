@@ -62,3 +62,16 @@ border-radius: 10px;
   background-color: blue;
   border-radius: 10px;
 }
+
+.side_bar_content{
+  width: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side_bar_content .items{
+  padding: 15px;
+  margin-right : 10px ;
+}
