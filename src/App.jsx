@@ -8,7 +8,17 @@ const App = () => {
   return (
    <>
    <Navbar/>
-   
+   <div className="container">
+   <div className="side_bar">
+    <Sidebar/>
+   </div>
+   <div className="post_section">
+    <Post/>
+   </div>
+   <div className="right_bar">
+    <RightBar/>
+   </div>
+   </div>
    </>
   )
 }

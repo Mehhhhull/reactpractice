@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="nav_bar">
         <div className="logo">MKS</div>
         <div className="search">
-          <div className="left"><FcSearch/>Search Here...</div>
+          <div className="left"><FaSearch/>Search Here...</div>
           <div className="right"><IoFilter/>Filters</div>
         </div>
         <div className="seller">Become a Seller</div>

@@ -34,3 +34,31 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+}
+
+.side_bar{
+  width: 15%;
+  height: 80vh;
+  background-color: blue;
+    border-radius: 10px;
+}
+
+.post_section{
+width: calc(100% - 32%);
+background-color: blueviolet;
+border-radius: 10px;
+}
+
+.right_bar{
+  width: 15%;
+  height: 80vh;
+  background-color: blue;
+  border-radius: 10px;
+}
